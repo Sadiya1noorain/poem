@@ -1,0 +1,46 @@
+body{
+    padding: 20px;
+    margin: 20px;
+    background-image:-webkit-linear-gradient(-45deg, #5e9fb9, #04212c );
+    color: #04212c;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.two{
+    margin-left: 60px;
+}
+
+#myVideo{
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+@media (min-aspect-ratio: 16/9){
+    #myVideo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    #myVideo{
+        width: auto;
+        height: 100%;
+    }
+}
