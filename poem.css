@@ -20,8 +20,13 @@ h1{
     font-size: 50px;
 }
 
-.two{
+/* .two{
     margin-left: 60px;
+} */
+
+.margin li{
+    margin-left: 20px;
+    list-style: none;
 }
 
 #myVideo{
